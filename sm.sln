@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShareMemeryDemoServer", "src\ShareMemeryDemoServer\ShareMemeryDemoServer.csproj", "{073F79A3-C5BE-40BB-819D-D543418FA49C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShareMemeryDemoClient", "src\ShareMemeryDemoClient\ShareMemeryDemoClient.csproj", "{496CA67A-6EB9-4F76-AC83-0977C2A0AD1C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{073F79A3-C5BE-40BB-819D-D543418FA49C} = {073F79A3-C5BE-40BB-819D-D543418FA49C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{073F79A3-C5BE-40BB-819D-D543418FA49C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{073F79A3-C5BE-40BB-819D-D543418FA49C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{073F79A3-C5BE-40BB-819D-D543418FA49C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{073F79A3-C5BE-40BB-819D-D543418FA49C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{496CA67A-6EB9-4F76-AC83-0977C2A0AD1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{496CA67A-6EB9-4F76-AC83-0977C2A0AD1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{496CA67A-6EB9-4F76-AC83-0977C2A0AD1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{496CA67A-6EB9-4F76-AC83-0977C2A0AD1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F195896-B56C-4DBE-987B-717C841A1900}
+	EndGlobalSection
+EndGlobal
